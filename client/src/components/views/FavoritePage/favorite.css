@@ -1,0 +1,15 @@
+.favorite-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.favorite-table td, .favorite-table th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.favorite-table tr:nth-child(even) {
+  background-color: #dddddd;
+}
